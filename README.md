@@ -1,31 +1,94 @@
-Project Description: 
+Accounting Ledger CLI Application 
 
--The Accounting Ledger CLI Application is a Java-based tool for tracking financial transactions.
+Overview 
 
--It provides a command-line interface (CLI) for users to manage deposits, payments, and view transaction history.
+  The Accounting Ledger CLI Application is a Java-based tool designed for tracking financial transactions. It provides a command-line interface (CLI) for users to manage deposits, payments, and view transaction history efficiently. 
 
--Users can add deposits and record payments, specifying details such as date, time, description, vendor, and amount.
+Features 
 
--The application offers a ledger feature to display transaction history, with options to view all entries, deposits, or payments.
+  Transaction Management: 
 
--Additionally, users can generate predefined reports for month-to-date, previous month, year-to-date, and previous year financial analysis.
+  - Add deposits with details such as date, time, description, vendor, and amount. 
 
+  - Record payments with similar detailed information. 
 
-Interesting Code:
+Ledger Display 
 
--The "implements" keyword in Java lets you access an interface like Comparable.
+  - View the entire transaction history. 
 
--The Comparable interface is similar to a class but has empty methods that can be defined with @Override.
+  - Filter to view only deposits or payments. 
 
--The compareTo method that belongs to the Comparable interface allows you to compare objects. 
+  - Improved display for a more user-friendly experience. 
 
--My compareTo uses a different compareTo method that belongs to LocalDate inside of it.
+Financial Reports 
 
--The current object's date is compared to the next object's date, if the date is before the current object's date it returns -1.
+  Generate predefined reports for 
 
--If the current object's date is equal to the next object's date it returns 0 and if it's after it returns 1.
+  - Month-to-date 
 
--compareTo sorts each Transactions objects until they're in order.
+  - Previous month 
+
+  - Year-to-date 
+
+  - Previous year
+
+  - Vendor name
+
+  - Custom search
+
+Error Handling 
+
+- Updated error catch mechanisms to ensure smooth and accurate transaction management. 
+
+- Clear error messages to guide users in correcting issues. 
+
+Code Highlights 
+
+- Comparable Interface 
+
+- The implements keyword in Java allows access to an interface, such as Comparable. 
+
+Comparable Interface 
+
+  - Similar to a class but contains empty methods to be defined with @Override. 
+
+  - The compareTo method, part of the Comparable interface, enables object comparison. 
+
+compareTo Method 
+
+- The compareTo method is used for sorting Transactions objects by date. 
+
+- Utilizes the compareTo method from LocalDate for date comparison. 
+
+- Compares the current object's date with the next object's date: 
+
+- Returns -1 if the current object's date is before the next object's date. 
+
+- Returns 0 if the dates are equal. 
+
+- Returns 1 if the current object's date is after the next object's date. 
+
+- This method ensures that Transactions objects are sorted in chronological order. 
+
+Getting Started 
+
+  Prerequisites 
+
+   - Java Development Kit (JDK) installed 
+
+Usage 
+
+- Clone the repository. 
+
+- Navigate to the project directory. 
+
+- Compile and run the application. 
+
+- Use the CLI to add deposits, record payments, and view the ledger. 
+
+License 
+
+This project is licensed under the MIT License. 
 
 <img width="503" alt="9" src="https://github.com/Erikarod27/AccountingLedger/assets/113813867/ebda585d-73cd-4c74-8f25-2cc78251b905">
 <img width="512" alt="10" src="https://github.com/Erikarod27/AccountingLedger/assets/113813867/a2620d3e-d600-4fc7-ae46-02f7daa26345">
@@ -33,11 +96,12 @@ Interesting Code:
 
 Images of Application Screens:
 
-<img width="292" alt="1" src="https://github.com/Erikarod27/AccountingLedger/assets/113813867/64329b2d-3878-41be-bb4e-f1e19689b119">
-<img width="427" alt="2" src="https://github.com/Erikarod27/AccountingLedger/assets/113813867/de0e5453-5872-4181-a330-2685c7ce4912">
-<img width="512" alt="3" src="https://github.com/Erikarod27/AccountingLedger/assets/113813867/7b8f2dc8-aeeb-4287-bfc0-35f2905303f7">
-<img width="415" alt="4" src="https://github.com/Erikarod27/AccountingLedger/assets/113813867/c9b7af90-2c42-497b-9f53-377c831ba7ef">
-<img width="424" alt="5" src="https://github.com/Erikarod27/AccountingLedger/assets/113813867/9ea7e0aa-2c67-4199-b3d0-2846ec8b74c6">
-<img width="460" alt="6" src="https://github.com/Erikarod27/AccountingLedger/assets/113813867/6d5a7d41-67a8-481d-af44-ec05a225cb60">
-<img width="465" alt="7" src="https://github.com/Erikarod27/AccountingLedger/assets/113813867/36bc90de-432f-41c8-ab32-189e36a39bc5">
-<img width="343" alt="8" src="https://github.com/Erikarod27/AccountingLedger/assets/113813867/9aa49c90-57f2-4333-897d-1f779af9b4cb">
+<img width="234" alt="UpdatedLedgerDisplay" src="https://github.com/user-attachments/assets/f71708a6-366d-46c3-a094-6d7dcddc9219">
+<img width="629" alt="AccountLedgerError" src="https://github.com/user-attachments/assets/9ec2b2ed-fde4-428c-adc9-086f8a13106c">
+<img width="243" alt="Payment" src="https://github.com/user-attachments/assets/c08d5956-0582-4332-901b-eb36c95ddcd8">
+<img width="345" alt="Ledger" src="https://github.com/user-attachments/assets/37a74d3f-9ec9-4e92-8f8e-397477f85d9f">
+<img width="369" alt="Reports" src="https://github.com/user-attachments/assets/7f8a99a0-02a4-4264-8114-bec548b80d92">
+<img width="235" alt="Goodbye" src="https://github.com/user-attachments/assets/fd608046-e520-402d-ad01-f6a5d1e24807">
+
+
+
